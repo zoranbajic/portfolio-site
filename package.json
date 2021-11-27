@@ -4,8 +4,16 @@
   "description": "My portfolio site",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "tailwindcss -i src/styles.css -o client/styles.css"
   },
   "author": "Zoran Bajic",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "css-loader": "^6.5.1",
+    "postcss": "^8.4.4",
+    "postcss-loader": "^6.2.1",
+    "tailwindcss": "^2.2.19"
+  }
 }
