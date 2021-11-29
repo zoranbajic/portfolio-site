@@ -27,9 +27,9 @@ export const projects = [
 
 export const skills = [
   'JavaScript',
-  'React',
-  'React Hooks',
+  'React & React Hooks',
   'Node',
   'PostgreSQL',
   'Material UI',
+  'Etebase',
 ];
