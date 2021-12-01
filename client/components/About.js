@@ -8,9 +8,10 @@ function App() {
         <div className='lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center'>
           <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-white'>
             Hi, I'm Zoran
-            <br className='lg:inline-block' />
-            I'm a fullstack developer who loves to build private, secure apps.
           </h1>
+          <h3 className='text-2xl text-white mb-4'>
+            I'm a fullstack developer who loves to build private, secure apps.
+          </h3>
           <p className='mb-8 leading-relaxed'>
             As a privacy and security enthusiast/advocate for many years, I
             strongly believe that people should be in control of their data and
