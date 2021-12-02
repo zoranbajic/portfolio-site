@@ -14,7 +14,7 @@ const createApp = () => {
   app.use(express.urlencoded({ extended: false }));
 
   // Serve up our static assets
-  app.use(express.static(path.join(__dirname, '../dist')));
+  // app.use(express.static(path.join(__dirname, '../dist')));
   app.use(express.static(path.join(__dirname, '../public')));
 
   // Send index.html for any request

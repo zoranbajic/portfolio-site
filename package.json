@@ -4,7 +4,7 @@
   "description": "My portfolio site",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss -i src/styles.css -o client/styles.css",
+    "build-css": "tailwindcss -i src/styles.css -o public/styles.css",
     "start": "node server",
     "start-dev": "NODE_ENV=development npm run build-client-watch & NODE_ENV=development npm run start-server",
     "start-server": "nodemon server -e html,js,scss --ignore public --ignore client",
