@@ -33,11 +33,7 @@ function Projects() {
         </div>
         <div className='flex flex-wrap -m-4'>
           {projects.map((project) => (
-            <a
-              href={project.link}
-              key={project.image}
-              className='sm:w-1/2 w-100 p-4'
-            >
+            <div className='sm:w-1/2 w-100 p-4' key={project.image}>
               <div className='flex relative'>
                 <img
                   alt='gallery'
@@ -52,9 +48,17 @@ function Projects() {
                     {project.title}
                   </h1>
                   <p className='leading-relaxed'>{project.description}</p>
+                  <div className='grid grid-cols-2 gap-4 text-center font-medium text-indigo-500'>
+                    <a href={project.code}>
+                      <div className='hover:text-indigo-600 pt-6'>Code</div>
+                    </a>
+                    <a href={project.link}>
+                      <div className='hover:text-indigo-600 pt-6'>Website</div>
+                    </a>
+                  </div>
                 </div>
               </div>
-            </a>
+            </div>
           ))}
         </div>
       </div>
