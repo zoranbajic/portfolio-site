@@ -1,6 +1,5 @@
 module.exports = {
-  purge: [],
-  darkMode: false, // or 'media' or 'class'
+  content: ['./client/components/*.js', './client/*.js'],
   theme: {
     extend: {},
   },
@@ -8,4 +7,4 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-}
+};
