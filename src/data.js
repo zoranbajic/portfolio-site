@@ -29,10 +29,16 @@ export const projects = [
 ];
 
 export const skills = [
-  'JavaScript',
-  'React & React Hooks',
+  'TypeScript',
+  'Angular',
+  'RxJs',
+  'NgRx',
+  'React',
+  'Redux',
+  'Angular Material',
+  'Tailwind CSS',
+  'MUI',
   'Node',
   'PostgreSQL',
-  'Material UI',
-  'Etebase',
+  'Cypress',
 ];
